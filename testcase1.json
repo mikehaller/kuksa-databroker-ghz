@@ -1,14 +1,20 @@
 {
+    "name": "Test Case 1",
     "proto": "sdv/databroker/v1/broker.proto",
     "insecure": true,
     "skipFirst": 100,
     "call": "sdv.databroker.v1.Broker.GetDatapoints",
-    "total": 50000,
-    "output-format": "pretty",
+    "duration": 30,
+    "cpus": 4,
+    "connections": 2,
+    "disable-template-functions": true,
+    "disable-template-data": true,
+    "output": "report1.json",
+    "format": "pretty",
     "concurrency": 50,
     "data": {
         "datapoints": "Vehicle.Speed"
     },
-    "max-duration": "30s",
+    "max-duration": "120s",
     "host": "databroker:55555"
 }
