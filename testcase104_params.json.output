@@ -1,0 +1,36 @@
+
+Summary:
+  Name:		Test Case 1
+  Count:	5000
+  Total:	1.75 s
+  Slowest:	52.38 ms
+  Fastest:	0.22 ms
+  Average:	16.51 ms
+  Requests/sec:	2852.51
+
+Response time histogram:
+  0.224  [1]    |
+  5.439  [3155] |∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  10.654 [200]  |∎∎∎
+  15.869 [26]   |
+  21.085 [0]    |
+  26.300 [0]    |
+  31.515 [0]    |
+  36.731 [0]    |
+  41.946 [27]   |
+  47.161 [1336] |∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  52.376 [255]  |∎∎∎
+
+Latency distribution:
+  10 % in 1.54 ms 
+  25 % in 2.07 ms 
+  50 % in 3.33 ms 
+  75 % in 43.60 ms 
+  90 % in 45.43 ms 
+  95 % in 47.20 ms 
+  99 % in 49.63 ms 
+
+Status code distribution:
+  [OK]   5000 responses   
+
+

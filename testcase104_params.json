@@ -4,7 +4,7 @@
     "insecure": true,
     "skipFirst": 100,
     "call": "sdv.databroker.v1.Broker.GetDatapoints",
-    "duration": "30s",
+    "total": 5100,
     "cpus": 4,
     "connections": 2,
     "disable-template-functions": true,
@@ -12,6 +12,5 @@
     "concurrency": 50,
     "data": {
         "datapoints": "Vehicle.Speed"
-    },
-    "max-duration": "120s"
+    }
 }

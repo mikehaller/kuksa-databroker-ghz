@@ -1,0 +1,36 @@
+
+Summary:
+  Name:		Test Case 3: SDV API, Stream Update
+  Count:	5000
+  Total:	3.56 s
+  Slowest:	60.00 ms
+  Fastest:	1.40 ms
+  Average:	34.09 ms
+  Requests/sec:	1404.44
+
+Response time histogram:
+  1.404  [1]    |
+  7.264  [949]  |∎∎∎∎∎∎∎∎∎∎∎
+  13.123 [343]  |∎∎∎∎
+  18.983 [68]   |∎
+  24.842 [3]    |
+  30.702 [0]    |
+  36.562 [0]    |
+  42.421 [115]  |∎
+  48.281 [3352] |∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  54.140 [167]  |∎∎
+  60.000 [2]    |
+
+Latency distribution:
+  10 % in 4.83 ms 
+  25 % in 9.86 ms 
+  50 % in 43.29 ms 
+  75 % in 44.75 ms 
+  90 % in 46.88 ms 
+  95 % in 47.61 ms 
+  99 % in 49.77 ms 
+
+Status code distribution:
+  [OK]   5000 responses   
+
+

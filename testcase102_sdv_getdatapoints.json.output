@@ -1,0 +1,36 @@
+
+Summary:
+  Name:		Test Case 2: SDV API, Unary GetDatapoints
+  Count:	5000
+  Total:	2.39 s
+  Slowest:	51.25 ms
+  Fastest:	0.44 ms
+  Average:	23.09 ms
+  Requests/sec:	2095.06
+
+Response time histogram:
+  0.443  [1]    |
+  5.523  [1984] |∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  10.604 [606]  |∎∎∎∎∎∎∎∎∎∎∎∎
+  15.684 [89]   |∎∎
+  20.765 [20]   |
+  25.845 [0]    |
+  30.926 [0]    |
+  36.006 [0]    |
+  41.087 [1]    |
+  46.167 [1827] |∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  51.247 [472]  |∎∎∎∎∎∎∎∎∎∎
+
+Latency distribution:
+  10 % in 2.62 ms 
+  25 % in 3.68 ms 
+  50 % in 8.20 ms 
+  75 % in 44.21 ms 
+  90 % in 46.04 ms 
+  95 % in 47.72 ms 
+  99 % in 48.70 ms 
+
+Status code distribution:
+  [OK]   5000 responses   
+
+
