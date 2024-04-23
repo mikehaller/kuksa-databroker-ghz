@@ -1,0 +1,17 @@
+{
+    "name": "Test Case 1: Kuksa API, Unary GET",
+    "proto": "kuksa/val/v1/val.proto",
+    "insecure": true,
+    "skipFirst": 100,
+    "call": "kuksa.val.v1.VAL.Get",
+    "total": 5100,
+    "disable-template-functions": true,
+    "disable-template-data": true,
+    "data": {
+        "entries": {
+            "path": "Vehicle.Speed",
+            "view": 1,
+            "fields": 2
+        }
+    }
+}
