@@ -1,5 +1,5 @@
 {
-    "name": "Test Case 1",
+    "name": "Test Case 4: SDV GetDataPoints Disable Templates",
     "proto": "sdv/databroker/v1/broker.proto",
     "insecure": true,
     "skipFirst": 100,

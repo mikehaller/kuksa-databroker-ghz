@@ -1,7 +1,7 @@
 # kuksa-databroker-ghz
 Kuksa Databroker gRPC performance tests
 
-## Native setup
+## Local setup
 
 - Install [ghz](https://github.com/bojand/ghz)
     ```
@@ -12,7 +12,11 @@ Kuksa Databroker gRPC performance tests
     ```
     git clone https://github.com/eclipse-kuksa/kuksa-databroker.git
     ```
-- Run tests:
+- Run all tests:
+    ```
+    ./run.sh  localhost:55555 --import-paths=kuksa-databroker/proto/
+    ```
+- Run tests individually:
     ```
     ./ghz --config=testcase1_kuksa_get.json --import-paths=kuksa-databroker/proto/ localhost:55555
     ./ghz --config=testcase2_sdv_getdatapoints.json --import-paths=kuksa-databroker/proto/ localhost:55555
@@ -20,7 +24,7 @@ Kuksa Databroker gRPC performance tests
     ```
 
 ## Docker Setup
-
+(wip)
 ```
 docker network create kuksa
 docker run -d --rm --name databroker --network host ghcr.io/eclipse-kuksa/kuksa-databroker:0.4 --insecure
