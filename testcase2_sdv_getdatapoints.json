@@ -9,6 +9,5 @@
     "disable-template-data": true,
     "data": {
         "datapoints": "Vehicle.Speed"
-    },
-    "host": "databroker:55555"
+    }
 }
