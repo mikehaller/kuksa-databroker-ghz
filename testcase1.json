@@ -4,7 +4,7 @@
     "insecure": true,
     "skipFirst": 100,
     "call": "sdv.databroker.v1.Broker.GetDatapoints",
-    "duration": 30,
+    "duration": "30s",
     "cpus": 4,
     "connections": 2,
     "disable-template-functions": true,
