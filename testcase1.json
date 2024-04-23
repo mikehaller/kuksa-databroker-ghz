@@ -1,0 +1,11 @@
+{
+    "proto": "sdv/databroker/v1/broker.proto",
+    "call": "sdv.databroker.v1.Broker.GetDatapoints",
+    "total": 50000,
+    "concurrency": 50,
+    "data": {
+        "datapoints": "Vehicle.Speed"
+    },
+    "max-duration": "30s",
+    "host": "databroker:55555"
+}
